@@ -1,4 +1,4 @@
-VERSION = 0.1.0-dev
+VERSION = v0.0.1
 BASE_PACKAGE = github.com/ashwanthkumar/indix-api-tools
 
 setup:
