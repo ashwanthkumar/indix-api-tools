@@ -4,8 +4,8 @@ BASE_PACKAGE = github.com/ashwanthkumar/indix-api-tools
 setup:
 	glide install
 
-build-bulk-json2csv:
-	go build -o bulk-json2csv bulk-json2csv
+build-json2csv:
+	go build -o json2csv.out ${BASE_PACKAGE}/json2csv
 
 build-all:
 	GOOS=linux GOARCH=amd64 go build -ldflags "-s -X main.Version=${VERSION}" -v -o json2csv-linux-amd64 ${BASE_PACKAGE}/json2csv
