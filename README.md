@@ -15,7 +15,7 @@ MinSalePrice,MaxSalePrice,OffersCount,StoresCount,LastRecordedAt,CountryCode,Mpi
 ```
 
 #### Usage
-Download the latest version of `json2csv` from the releases based on your operating system.
+Download the latest version of `json2csv` from the [releases](https://github.com/ashwanthkumar/indix-api-tools/releases) based on your operating system.
 
 ```
 Used to convert Bulk Job's JSON output to CSV
