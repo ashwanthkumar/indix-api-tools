@@ -1,2 +1,4 @@
 vendor/
-
+json2csv-darwin*
+json2csv-linux*
+json2csv-win*.exe
