@@ -17,7 +17,7 @@ var multiValueDelimiter = "|"
 
 // JSON2Csv is used to convert bulk output JSON to CSV
 var JSON2Csv = &cobra.Command{
-	Use:   "json2csv",
+	Use:   "json2csv <input.json> <output.csv>",
 	Short: "Used to convert Bulk Job's JSON output to CSV",
 	Long:  `Used to convert Bulk Job's JSON output to CSV`,
 	Run:   util.AttachHandler(doJSONToCsv),
