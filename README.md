@@ -1,5 +1,5 @@
 # Indix API Tools
-Set of (CLI) tools to make working with Indix API easy.
+Set of (CLI) tools to make working with [Indix API](https://developer.indix.com/) easy.
 
 ### JsonToCSV
 `json2csv` helps you convert the bulk output's json format to a CSV / TSV file. Example
