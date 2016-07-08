@@ -14,9 +14,17 @@ MinSalePrice,MaxSalePrice,OffersCount,StoresCount,LastRecordedAt,CountryCode,Mpi
 12.990000,50.640000,36,9,1467784679225,US,0c7b2d9462f910b3987e84295d0a6a68,USD,UPC1|UPC2|UPC3,"Women's Sandals gold",4722,10179 > 16238 > 20822,Ellie,20822,Sandals,null|014-MIRIAM - M,http://images10.newegg.com/ProductImage/productId.jpg,Shoes > Women > Sandals
 ```
 
-#### Usage
+#### Download
 Download the latest version of `json2csv` from the [releases](https://github.com/ashwanthkumar/indix-api-tools/releases) based on your operating system.
 
+If you're Mac, you can also use brew to install
+```
+brew update
+brew tap ashwanthkumar/tap
+brew install ashwanthkumar/tap/json2csv
+```
+
+#### Usage
 ```
 Used to convert Bulk Job's JSON output to CSV
 
